@@ -5,7 +5,7 @@
 function startwordpress_scripts() {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.6' );
 	wp_enqueue_style( 'blog', get_template_directory_uri() . '/css/blog.css' );
-		wp_enqueue_style( 'styles', get_template_directory_uri() . '/css/style.css' );
+		wp_enqueue_style( 'styles', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.js', array( 'jquery' ), '3.3.6', true );
 	wp_enqueue_script( 'js', get_template_directory_uri() . '/js/bootstrap.js', array( 'jquery' ), '', true );

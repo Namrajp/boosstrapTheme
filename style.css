@@ -4,11 +4,15 @@ Author: Namraj P
 
 */
 
+/*.blog-nav{
+		background: #222;
+	}*/
 .blog-nav li{
 	position: relative;
 	display: inline-block;
 	font-weight: bold;
 	padding: 15px;
+	font-size: 25px;
 
 }
 
