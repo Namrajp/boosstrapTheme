@@ -33,8 +33,15 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Home</a>
-          <?php wp_list_pages('&title_li=') ;?>
+
+          <?php wp_nav_menu(
+
+              array(
+                  'theme_location'=> 'top-menu' ,
+              )
+          ); ?>
+          <!-- <a class="blog-nav-item active" href="#">Home</a>
+          <?php wp_list_pages('&title_li=') ;?> -->
         </nav>
       </div>
     </div>
@@ -45,3 +52,4 @@
         <a href="<?php echo bloginfo('wpurl'); ?>"><h1 class="blog-title"><?php echo bloginfo('name'); ?></h1></a>
         <p class="lead blog-description"><?php echo bloginfo('description'); ?></p>
       </div>
+

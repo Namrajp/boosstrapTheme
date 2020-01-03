@@ -3,17 +3,22 @@ Theme Name: Bootstrap Theme
 Author: Namraj P
 
 */
-
-/*.blog-nav{
-		background: #222;
-	}*/
+*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+.menu{margin-bottom: 0px;}
 .blog-nav li{
 	position: relative;
 	display: inline-block;
 	font-weight: bold;
-	padding: 15px;
-	font-size: 25px;
-
+	font-size: 20px;
+	padding: 10px;
+	
 }
 
+.blog-nav li:hover{
+	text-decoration: none;background: tomato;
+}
 .blog-nav li a{ color: #fff; }
