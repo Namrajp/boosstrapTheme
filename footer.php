@@ -1,7 +1,7 @@
  </div><!-- /.container -->
 
     <footer class="blog-footer">
-      <p>Academy for learning web development onesimplekode.com Seven Hills <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>Academy for learning web development onesimplekode.com Seven Hills <a href="http://github.com/Namrajp">Admin Github</a><a href="http://twitter.com/Nabraj14708196">@Nabraj</a>.</p>
       <p>
         <a href="#">Back to top</a>
       </p>
